@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right top, #845ec2, #646cc5, #4875c1, #367cb7, #3880aa, #3d8aa4, #50929c, #679896, #84a597, #a2b19d, #bebdaa, #d5cabd);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* overflow: hidden; */
+  }
+  .container {
+    margin-top: 30px;
+    height: 100vh;
+  .card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .card-header {
+    background-color: #845EC2;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: right;
+  }
+  .card-title {
+    margin-bottom: 0;
+  }
+  .card-body {
+    padding: 20px;
+    text-align: right;
+  }
+  .form-group label {
+    color: #333;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
